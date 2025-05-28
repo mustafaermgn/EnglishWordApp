@@ -156,8 +156,9 @@ class ProfileActivity : BaseCompact() {
             }
         }
 
+
         profilDuzenle.setOnClickListener {
-            Toast.makeText(context, "Profil edit", Toast.LENGTH_SHORT).show()
+            bagla(ProfileEditActivity::class.java,false)
             popupWindow.dismiss()
         }
         cikisYap.setOnClickListener{
