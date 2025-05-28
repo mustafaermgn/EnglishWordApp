@@ -158,7 +158,7 @@ class ProfileActivity : BaseCompact() {
 
 
         profilDuzenle.setOnClickListener {
-            bagla(ProfileEditActivity::class.java,false)
+
             popupWindow.dismiss()
         }
         cikisYap.setOnClickListener{

@@ -75,14 +75,7 @@
                     android:background="@color/DarkGray"/>
             </androidx.cardview.widget.CardView>
 
-            <Button
-                android:id="@+id/btnChangePhoto"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="24dp"
-                android:backgroundTint="@color/black"
-                android:text="@string/change_photo"
-                android:textColor="@color/whiteBase" />
+
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/inputLayoutName"

@@ -48,8 +48,6 @@ class PromptPage : BaseCompact() {
     private lateinit var promptKelimeleri: String
     private lateinit var promptImageCreate :String
     private lateinit var olusanHikaye:String
-    val OPEN_ROUTER_API_KEY = "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"
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPromptPageBinding.inflate(layoutInflater)
