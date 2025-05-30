@@ -11,7 +11,7 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/logo_eng"
-        android:label="Word App"
+        android:label="Penlingu"
         android:roundIcon="@mipmap/logo_eng"
         android:supportsRtl="true"
         android:theme="@style/Theme.EnglishWordsApp"
