@@ -67,7 +67,7 @@ Eklenen kelimeler aşfabetik olarak listelenir listelenen içerik :
 - Kullanıcı 5 İngilizce kelime seçer
 - Bu kelimelerden:
   - OpenAI API ile **hikâye yazılır**
-  - Wiro.ai ile **hikâyeye uygun görsel** üretilir
+  - Pollinations ile **hikâye temasına %100 uygun görsel** üretilir.
 
 ---
 
@@ -76,20 +76,12 @@ Eklenen kelimeler aşfabetik olarak listelenir listelenen içerik :
 | Katman        | Teknoloji                |
 |---------------|--------------------------|
 | Backend       | Firebase (Auth, Firestore) |
-| Görsel Üretim | Wiro.ai API              |
+| Görsel Üretim | PollinationsAI            |
 | Hikâye Üretim | OpenAI API (GPT)         |
-| Android       | Kotlin + Jetpack         |
+| Android       | Kotlin                   |
 | UI/UX         | XML, Lottie, Material UI |
 
 ---
-
-## 🔒 Güvenli İçerik Politikası
-- Çocuklar için uygundur.
-- Şu içerikler filtrelenir:  
-  ❌ Küfür  
-  ❌ Çıplaklık  
-  ❌ Politik söylem  
-  ❌ Kötüye kullanım
 
 ---
 
